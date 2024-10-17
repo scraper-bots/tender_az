@@ -1,3 +1,5 @@
+### Course: Deep Learning 
+
 ### Ticket № 1
 **1. Image Classification**
 - Task: Classify a dataset of vehicles into different categories.
@@ -61,7 +63,7 @@
 
 ---
 
-### Course: Machine Learning - 0255b | Group: E27-24
+### Course: Machine Learning
 
 ---
 
