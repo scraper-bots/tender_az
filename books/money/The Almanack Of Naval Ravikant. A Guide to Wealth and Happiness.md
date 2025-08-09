@@ -140,4 +140,5 @@ _The Almanack of Naval Ravikant_ is less a step‑by‑step manual and more a di
 
 By internalizing Naval’s dual focus on building **unbounded wealth** and cultivating **unshakable happiness**, you can architect a life that is both prosperous and profoundly satisfying.
 
+[[list]]
 [[my books]]

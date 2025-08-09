@@ -38,5 +38,5 @@ Bach’s central thesis is that women can and should take full control of their 
 
 If you want, I can also give you a **chapter-by-chapter breakdown** so you can see the flow of ideas across the whole book. That would make it even easier to apply.
 
-[[my books]]
 [[list]]
+[[my books]]

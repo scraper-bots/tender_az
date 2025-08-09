@@ -175,5 +175,5 @@ Below is a selection of highly regarded personal‑finance books that, like Morg
 
 By exploring these complementary titles, you’ll gain a richer toolkit for mastering saving, safeguarding what you’ve built, optimizing spending, and ultimately growing lasting wealth—while deepening your understanding of the psychological forces at play.
 
-[[my books]]
 [[list]]
+[[my books]]

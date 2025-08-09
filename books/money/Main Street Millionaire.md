@@ -84,5 +84,6 @@ Beyond individual wealth, Sanchez emphasizes the societal benefits of rescuing a
 **Conclusion**  
 _Main Street Millionaire_ offers a compelling, actionable roadmap for those seeking to escape the limitations of traditional employment and speculative investing. By focusing on proven small businesses, utilizing creative financing, and applying systematic operational improvements, readers can build sustainable, generational wealth while strengthening local economies. Codie Sanchez’s clear, no-nonsense guidance reframes entrepreneurship as an accessible, community-focused path to financial freedom.
 
-[[my books]]
+
 [[list]]
+[[my books]]

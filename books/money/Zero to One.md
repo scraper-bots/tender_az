@@ -106,5 +106,6 @@ The final chapter offers a case study of clean‑tech investing, illustrating ho
 
 _Zero to One_ offers both a philosophical framework and concrete guidance for anyone seeking to build technology ventures that are not just incremental improvements but true paradigm shifts. It remains an indispensable reference for entrepreneurs, investors, and business leaders striving to take bold, original steps toward the future.
 
-[[my books]]
+
 [[list]]
+[[my books]]

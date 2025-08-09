@@ -144,5 +144,5 @@ Throughout the book, Olsen intersperses real-world examples—from start-ups lik
 
 _The Lean Product Playbook_ offers a rigorous, yet flexible, blueprint for product innovation. By combining Lean Startup philosophy with concrete tools for customer discovery, prototyping, and measurement, Dan Olsen equips teams to reduce risk, avoid wasted effort, and deliver products that genuinely resonate with their target audience. Whether you’re a first-time founder or part of a seasoned product organization, this book provides the discipline and structure needed to navigate uncertainty and achieve sustainable growth.
 
-[[my books]]
 [[list]]
+[[my books]]

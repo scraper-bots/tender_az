@@ -145,6 +145,6 @@ _12 Months to $1 Million_ by Ryan Moran lays out a systematic, step-by-step fram
 **Conclusion**  
 _12 Months to $1 Million_ serves as both a roadmap and a mindset guide for aspiring entrepreneurs. Moran’s emphasis on disciplined execution, rigorous testing, and brand-centric thinking equips readers to transform raw ideas into a lucrative, scalable business within a compressed timeframe. By following the monthly blueprint—anchored in tangible metrics and repeatable systems—founders can de-risk their ventures and create enduring value well beyond the first year.
 
-[[list]]
+[[books/money/list]]
 
 [[my books]]

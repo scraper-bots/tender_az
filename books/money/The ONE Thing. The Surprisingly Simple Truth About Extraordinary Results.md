@@ -118,4 +118,6 @@ Keller identifies four pitfalls that can derail focus on your ONE Thing:
 ## Conclusion
 
 _The ONE Thing_ is both a mindset and a methodology for achieving remarkable results by simplifying one’s approach to goal setting and execution. Rather than scattering effort across numerous objectives, Keller and Papasan demonstrate that by continually asking the focusing question, structuring your time, and building supportive habits and environments, you align daily actions with long‑term aspirations—unlocking extraordinary outcomes far beyond what “balanced” but unfocused efforts can yield. The path to mastery in any field, they contend, is paved by the disciplined pursuit of the ONE Thing that matters most at any given time.
+
+[[list]]
 [[my books]]

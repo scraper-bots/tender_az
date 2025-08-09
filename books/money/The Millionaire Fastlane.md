@@ -153,5 +153,4 @@ DeMarco provides a practical roadmap:
 _The Millionaire Fastlane_ dismantles the conventional retirement-centric paradigm and replaces it with an action-oriented, entrepreneurial blueprint. It emphasizes that wealth is born from serving large audiences, controlling your vehicle, and constructing scalable systems. While the journey demands discipline, creativity, and calculated risk, the Fastlane offers a roadmap to transcending the time-for-money exchange and achieving financial independence on an accelerated timeline.
 
 [[list]]
-
 [[my books]]

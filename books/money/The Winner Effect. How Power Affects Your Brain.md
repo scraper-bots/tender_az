@@ -112,4 +112,7 @@ _The Winner Effect_ illuminates a powerful biological framework: success and sta
 
 **Key Takeaway**  
 Success is as much a physiological phenomenon as a psychological one. By consciously designing experiences that trigger healthy reward loops—and by instituting checks against overconfidence—we can ride the crest of the winner effect while avoiding its hidden pitfalls.
+
+
+[[list]]
 [[my books]]
