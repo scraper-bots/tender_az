@@ -29,7 +29,7 @@
   "showBranchStatusBar": true,
   "setLastSaveToLastCommit": true,
   "submoduleRecurseCheckout": false,
-  "gitDir": "https://github.com/doc-center/vault.git",
+  "gitDir": "",
   "showFileMenu": true,
   "authorInHistoryView": "hide",
   "dateInHistoryView": false,
