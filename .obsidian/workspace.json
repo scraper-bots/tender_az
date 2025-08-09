@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "business/google adds.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -195,6 +195,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "yet-another-obsidian-synchronizer:YAOS": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
