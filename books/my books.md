@@ -162,6 +162,7 @@
 | 156 | Money: Master the Game                                                            | Tony Robbins                                          | English     | ✗        | Summarized | simple but powerfull advices                                                    |
 | 157 | Ovod                                                                              | Ethel Lilian Voynich                                  | Azerbaijani | ✗        | Summarized | just a drama                                                                    |
 | 158 | Financial Freedom                                                                 | Grant Sabatier                                        | English     | ✗        | Summarized | bullshit-no one can live this life                                              |
+| 159 | The Barefoot Investor                                                             | Scott Pape                                            | English     | ✗        | Summarized |                                                                                 |
 
 ---
 
