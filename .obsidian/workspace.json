@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "business/ideas/apps.md",
+                "file": "business/ideas/small apps.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of apps"
+              "title": "Outline of small apps"
             }
           },
           {
@@ -255,10 +255,10 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "3fd4d4e9475ac1dc",
+  "active": "7fca9e9571626981",
   "lastOpenFiles": [
-    "business/ideas/small apps.md",
     "business/ideas/apps.md",
+    "business/ideas/small apps.md",
     "business/ideas/One page Apps.md",
     "books/money/list.md",
     "books/my books.md",
