@@ -1,4 +1,6 @@
-![[adds.jpg]]
+
+<img src="https://images.unsplash.com/photo-1663352587435-22b4a87d4f0b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
 Below I’ll give a thorough, step-by-step explanation so you can (A) understand the difference between Google’s advertising products, (B) choose the right path for a publisher, (C) implement ads on your website, and (D) set up and receive payments. Where the facts are time-sensitive I cite Google’s official help pages so you can follow the source and replicate exact steps.
 
 ---

@@ -2,165 +2,166 @@
 
 ---
 
-|#|Book Name|Author|Language|Physical|Status|Notes|
-|---|---|---|---|---|---|---|
-|1|Stratejik Pazarlama|Harvard Business Review Press|Turkish|✓|Completed|interesting book for sales|
-|2|HBR's 10 Must Reads on Managing People|Harvard Business Review Press|English|✓|Completed|bullshit|
-|3|HBR On Leadership|Harvard Business Review Press|English|✓|Completed|bullshit|
-|4|HBR's 10 Must Reads on Making Smart Decisions|Harvard Business Review Press|English|✓|Completed|bullshit|
-|5|HBR's 10 Must Reads on Teams|Harvard Business Review Press|English|✓|Completed|bullshit|
-|6|Kralların Çarpışması 1|George R. R. Martin|Turkish|✓|Completed||
-|7|Kralların Çarpışması 2|George R. R. Martin|Turkish|✓|Completed||
-|8|Taht oyunları|George R. R. Martin|Turkish|✓|Completed||
-|9|Kılıçların Fırtınası Kısım 1|George R. R. Martin|Turkish|✓|Completed||
-|10|Kılıçların Fırtınası Kısım 2|George R. R. Martin|Turkish|✓|Completed||
-|11|Ateş ve Kan|George R. R. Martin|Turkish|✓|Completed||
-|12|Ejderhaların Dansı. Kısım 1|George R. R. Martin|Turkish|✓|Completed||
-|13|Ejderhaların Dansı. Kısım 2|George R. R. Martin|Turkish|✓|Completed||
-|14|Kargaların Ziyafeti. Kısım 1|George R. R. Martin|Turkish|✓|Completed||
-|15|Kargaların Ziyafeti. Kısım 2|George R. R. Martin|Turkish|✓|Completed||
-|16|Buz Ejderhasi|George R. R. Martin|Turkish|✓|Completed||
-|17|Da Vinci Şifresi|Dan Brown|Azerbaijani|✓|Completed||
-|18|Cehennem|Dan Brown|Turkish|✗|Completed||
-|19|Başlangıç|Dan Brown|Turkish|✓|Completed||
-|20|Dijital Kale|Dan Brown|Turkish|✓|Completed||
-|21|Itirilmiş Simvol|Dan Brown|Azerbaijani|✓|Completed||
-|22|Ihanet noktasi|Dan Brown|Turkish|✓|Completed||
-|23|Foundation's Edge|Isaac Asimov|Turkish|✓|Completed||
-|24|Second Foundation|Isaac Asimov|Turkish|✓|Completed||
-|25|Foundation and Empire|Isaac Asimov|Turkish|✓|Completed||
-|26|Foundation|Isaac Asimov|Turkish|✓|Completed||
-|27|Kendine Iyi Davran Güzel Insan|Beyhan Budak|Turkish|✓|Completed||
-|28|Aklındakini Okuyabilirim|David J. Lieberman|Turkish|✓|Completed||
-|29|The Social Brain: The Psychology of Successful Groups|Robin Dunbar and Samantha Rockey and Tracey Camilleri|English|✓|Completed||
-|30|Stressə qarşı peyvənd. Öz həyatının sahibi ol|Valeri Sinelnikov|Azerbaijani|✓|Completed||
-|31|Hayır Diyebilme Sanatı|Müthiş Psikoloji|Turkish|✓|Completed||
-|32|Education of the Will: The Theory and Practice of Self-Culture|Jules Payot|Turkish|✓|Completed||
-|33|Aklın Yeni Sınırları|Daniel H. Pink|Turkish|✓|Completed||
-|34|Thinking Fast and Slow|Daniel Kahneman|Turkish|✓|Completed|everyone should read this book|
-|35|Kitleler Psikolojisi|Gustave Le Bon|Turkish|✓|Completed||
-|36|It Didn't Start with You|Mark Wolynn|Turkish|✓|Completed||
-|37|Psixologiya|A.S.Bayramov and A.A. Alizada|Azerbaijani|✓|Completed||
-|38|Mutlu Beyin|Loretta Graziano Breuning|Turkish|✓|Completed||
-|39|Atomik Alışkanlıklar|James Clear|Turkish|✓|Completed|everyone should read this book|
-|40|Travma ve İyileşme|Judith Herman|Turkish|✓|Completed||
-|41|Para Yönetimi|Alfred Mill|Turkish|✓|Completed||
-|42|Lean startup|Eric Ries|Azerbaijani|✓|Completed||
-|43|Rich Dad Poor Dad|Robert Kiyosaki|Turkish|✓|Completed||
-|44|Para Kazanmak Senin Elinde|Jen Sincero|Turkish|✓|Completed||
-|45|Zənginliyin açarı|Napoleon Hill|Azerbaijani|✓|Completed||
-|46|Milyarder ve keşiş|Vibhor Kumar Singh|Turkish|✓|Completed||
-|47|Discover Your Destiny with the Monk Who Sold His Ferrari|Robin Sharma|Turkish|✓|Completed||
-|48|Paranın Satın Alamayacağı Şeyler|Michael J. Sandel|Turkish|✓|Completed||
-|49|Paranın Psikolojisi|Morgan Housel|Turkish|✓|Completed||
-|50|Büyük Yatırımcılar|Glen Arnold|Turkish|✓|Completed||
-|51|The Intelligent Investor|Benjamin Graham|Turkish|✓|Completed||
-|52|Milyoner Aklin Sirlari|T. Harv Eker|Turkish|✓|Completed||
-|53|Richest man in Babylon|George S. Clason|Turkish|✓|Completed||
-|54|Buyology|Martin Lindstrom|English|✓|Completed||
-|55|Satışın Kutsal Kitabı|Jeffrey Gitomer|Turkish|✓|Completed||
-|56|Necə böyük rəhbər olmalı|Jeffrey J. Fox|Azerbaijani|✓|Completed||
-|57|Necə Güclü Rəqib Olmaq Olar|Jeffrey J. Fox|Azerbaijani|✓|Completed||
-|58|Big Data|Victor Mayer-Schönberger and Kenneth Cukier|English|✓|Completed||
-|59|Büyük Veri İş Başında|Bernard Marr|Turkish|✓|Completed||
-|60|A-dan Z-yə marketinq|Philip Kotler|Azerbaijani|✓|Completed||
-|61|Marketinqdə 10 Ölümcül Qüsur|Philip Kotler|Azerbaijani|✓|Completed||
-|62|Mor inek|Seth Godin|Turkish|✓|Completed||
-|63|The Big Zero|Kris Timmermans and Rodrigo Abdalla|English|✓|Completed||
-|64|Tanrı Olmak Zor İş|Boris Strugatski and Arkadi Strugatski|Turkish|✓|Completed||
-|65|1984|George Orwell|Turkish|✓|Completed||
-|66|Oliver Twist|Charles Dickens|Turkish|✓|Completed||
-|67|The Twelve Chairs|Ilf Petrov and Yevgeny Petrov|Turkish|✓|Completed||
-|68|Asla Arkana Bakma|Tess Gerritsen|Turkish|✓|Completed||
-|69|Elə həmin Elis|Layza Cenova|Azerbaijani|✓|Completed||
-|70|My Sweet Orange Tree|José Mauro de Vasconcelos|Turkish|✓|Completed||
-|71|The Kite Runner|Khaled Hosseini|Turkish|✓|Completed||
-|72|And The Mountains Echoed|Khaled Hosseini|Azerbaijani|✗|Completed|sad|
-|73|Gentleman Burglar|Maurice Leblanc|Turkish|✓|Completed||
-|74|The Tartar Steppe|Dino Buzzati|Turkish|✓|Completed||
-|75|Ikigai|Francesc Miralles and Hector Garcia|Turkish|✓|Completed||
-|76|Ichigo Ichiye|Francesc Miralles and Hector Garcia|Turkish|✓|Completed||
-|77|Ikigai for teens|Francesc Miralles and Hector Garcia|Turkish|✓|Completed||
-|78|Prince|Niccolò Machiavelli|Turkish|✓|Completed||
-|79|The Papalagi|Erich Scheurmann|Turkish|✓|Completed||
-|80|Peaky Blinders|Carl Chinn|English|✓|Completed||
-|81|Gnosis|Adam Fawer|Turkish|✓|Completed||
-|82|Improbables|Adam Fawer|Turkish|✓|Completed||
-|83|Mobius|Adam Fawer|Turkish|✓|Completed||
-|84|Arxadakı Körpüləri Yandırın|Rövşən Abdullaoğlu|Azerbaijani|✓|Completed||
-|85|Əsarət|Rövşən Abdullaoğlu|Azerbaijani|✓|Completed||
-|86|Dürtme|Richard H. Thaler and Cass R. Sunstein|Turkish|✓|Completed||
-|87|Öfke Terbiyesi|Aaron Karmin|Turkish|✓|Completed||
-|88|Welcome to Your Brain|Sandra Aamodt and Sam Wang|Turkish|✓|Completed||
-|89|Akıldışının Mantığı|Dan Ariely|Turkish|✓|Completed||
-|90|İradə gücünün instinkti|Kelli Makqoniqal|Azerbaijani|✓|Completed||
-|91|The Power of Habit|Charles Duhigg|Turkish|✓|Completed||
-|92|Düsüncenin Maddesi|Steven Pinker|Turkish|✓|Completed||
-|93|Enneagram|İsmail Acarkan|Turkish|✓|Completed||
-|94|Elestirel Düsünme Icin Bir Rehber|Vincent Ryan Ruggiero|Turkish|✓|Completed||
-|95|Subliminal|Leonard Mlodinow|Turkish|✓|Completed||
-|96|Məntiqli düşünmə sənəti|Rolf Dobelli|Azerbaijani|✓|Completed||
-|97|Sadeliğin Dayanılmaz Hafifliği|Courtney Carver|Turkish|✓|Completed||
-|98|Reboot|Jason Stockwood|English|✓|Completed||
-|99|Motivasyon Rehberi|Roman Gelperin|Turkish|✓|Completed||
-|100|6 Deha Modeli|Patrick Lencioni|Turkish|✓|Completed||
-|101|Etkili insanlarin 7 Alışkanlığı|Stephen R. Covey|Turkish|✓|Completed||
-|102|Rağmenciler|Mümin Sekman|Turkish|✓|Completed||
-|103|Fırtınaya Karşı|Marshall Goldsmith|Turkish|✓|Completed||
-|104|Zor Zamanlar Güzel Kapilar Acar|Nebi Yıldız|Turkish|✓|Completed||
-|105|Yol Senin Icinde|Kinsun|Turkish|✓|Completed||
-|106|İkna Oyunları|Henrik Fexeus|Turkish|✓|Completed||
-|107|The secret of letting go|Guy Finley|Turkish|✓|Completed||
-|108|Yaşam Sanatı|Bob Proctor and Sandra Gallagher|Turkish|✓|Completed||
-|109|Screw It Let's Do It|Richard Branson|Turkish|✓|Completed||
-|110|The Subtle Art of Not Giving a F*ck|Mark Manson|Turkish|✓|Completed||
-|111|Outliers|Malcolm Gladwell|Turkish|✓|Completed||
-|112|Hatalar Kitabı|Skip Prichard|Turkish|✓|Completed||
-|113|Range|David Epstein|English|✓|Completed||
-|114|Factfullness|Hans Rosling Ola Rosling and Anna Rosling Rönnlund|English|✓|Completed||
-|115|Power|Rhonda Byrne|Turkish|✓|Completed||
-|116|No Excuses!|Brian Tracy|Azerbaijani|✓|Completed||
-|117|5 Saniye Kurali|Mel Robbins|Turkish|✓|Completed||
-|118|Kaos: Dağınıklığın Hayatlarımızı Değiştirme Gücü|Tim Harford|Turkish|✓|Completed||
-|119|Yaradıcı düşünmə sənəti|Rod Cadkins|Turkish|✓|Completed||
-|120|Gut: The Inside Story of Our Body's Most Underrated Organ|Giulia Enders|Turkish|✓|Completed||
-|121|Həyatım və işim|Henry Ford|Azerbaijani|✓|Completed||
-|122|A Brief History of Time|Stephen Hawking|Turkish|✓|Completed||
-|123|Yeni Başlayanlar İçin Python|Ahmet Aksoy|Turkish|✓|Completed||
-|124|How You Learn Is How You Live: Using Nine Ways of Learning to Transform Your Life|Kay Peterson and David Kolb|English|✓|Completed||
-|125|Statistics 101|David Borman|English|✓|Completed||
-|126|The Singularity Is Near: When Humans Transcend Biology|Ray Kurzweil|Turkish|✓|Completed||
-|127|Şifreleme ve Şifre Çözme Yöntemleri|Nuri Ural and Ömer Örenç|Turkish|✓|Completed||
-|128|Flowers for Algernon|Daniel Keyes|Turkish|✗|Completed|it is impossible to not to cry|
-|129|Martin Eden|Jack London|Turkish|✗|Completed|every men should read|
-|130|Robinson Crusoe|Daniel Defoe|Azerbaijani|✗|Completed||
-|131|The Adventures of Tom Sawyer|Mark Twain|Azerbaijani|✗|Completed||
-|132|In Search of the Castaways|Jules Verne|Azerbaijani|✗|Completed||
-|133|Make Your Bed|William H. McRaven|English|✗|Completed|simple and inspiring|
-|134|The Dance of Life: The New Science of How a Single Cell Becomes a Human Being|Magdalena Żernicka-Goetz and Roger Highfield|English|✗|Completed|i have never seen this kind of bulshit|
-|135|White Fang|Jack London|Turkish|✓|Completed|something interesting|
-|136|The Art of the Start 2.0|Guy Kawasaki|English|✗|Summarized|some bullshit about everyone already knows 20 thousand years ago|
-|137|Confessions of an Economic Hit Man|John Perkins|English|✓|Completed|every one knows.but no one cares.just no one|
-|138|The Alchemist|Paulo Coelho|Turkish|✗|Completed|it is some kind of masterpiece, but most of people not aware|
-|139|Breakfast with Seneca|David R. Fideler|English|✗|Summarized|time wasting- Islam arounds all of them more than every stoic thoughts|
-|140|Zero to One|Peter Thiel|English|✗|Summarized|something insightfull from america's powerfull gay billionaire|
-|141|The ONE Thing|Gary Keller and Jay Papasan|English|✗|Summarized|it is actually can be implemented and not alike other bullshit motivation books|
-|142|The Almanack Of Naval Ravikant|Eric Jorgenson|English|✗|Summarized|interesting and insightfull|
-|143|The Winner Effect|Ian Robertson|English|✗|Summarized|every winner should aware of consequences of thinking himself as undefeatable|
-|144|Writing to Learn|William Zinsser|English|✗|Summarized|it is explains how writing helps to organize our thoughts|
-|145|Four Thousand Weeks|Oliver Burkeman|English|✗|Summarized|spare you limited time for most important things and live with JOMO|
-|146|Lean Product Playbook|Dan Olsen|English|✗|Summarized|another hero trying to find order in jungle|
-|147|Human Design|Ra Uru Hu|English|✗|Summarized|if you give pen and paper to crazy man this book will be written|
-|148|Think and Grow Rich|Napoleon Hil|Turkish|✗|Completed|interesting book|
-|149|12 Months to $1 Million|Ryan Moran|English|✗|Summarized|again bullshit from enterpreneur who wants to gain money from book|
-|150|The Millionaire Fastlane|MJ DeMarco|English|✗|Summarized|basic classification of wealth gaining|
-|151|Rich AF|Vivian Tu|English|✗|Summarized|personal finance management|
-|152|Millionaire Mission|Brian Preston|English|✗|Summarized|another bullshit finance book|
-|153|Million Dollar Weekend|Noah Kagan|English|✗|Summarized|startup framework and actually it is helpfull|
-|154|Main Street Millionaire|Codie Sanchez|English|✗|Summarized|systematic approach to business|
-|155|Smart Women Finish Rich|David Bach|English|✗|Summarized|not only for women|
-|156|Money: Master the Game|Tony Robbins|English|✗|Summarized|simple but powerfull advices|
-|157|Ovod|Ethel Lilian Voynich|Azerbaijani|✗|Summarized|just a drama|
+| #   | Book Name                                                                         | Author                                                | Language    | Physical | Status     | Notes                                                                           |
+| --- | --------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------- | -------- | ---------- | ------------------------------------------------------------------------------- |
+| 1   | Stratejik Pazarlama                                                               | Harvard Business Review Press                         | Turkish     | ✓        | Completed  | interesting book for sales                                                      |
+| 2   | HBR's 10 Must Reads on Managing People                                            | Harvard Business Review Press                         | English     | ✓        | Completed  | bullshit                                                                        |
+| 3   | HBR On Leadership                                                                 | Harvard Business Review Press                         | English     | ✓        | Completed  | bullshit                                                                        |
+| 4   | HBR's 10 Must Reads on Making Smart Decisions                                     | Harvard Business Review Press                         | English     | ✓        | Completed  | bullshit                                                                        |
+| 5   | HBR's 10 Must Reads on Teams                                                      | Harvard Business Review Press                         | English     | ✓        | Completed  | bullshit                                                                        |
+| 6   | Kralların Çarpışması 1                                                            | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 7   | Kralların Çarpışması 2                                                            | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 8   | Taht oyunları                                                                     | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 9   | Kılıçların Fırtınası Kısım 1                                                      | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 10  | Kılıçların Fırtınası Kısım 2                                                      | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 11  | Ateş ve Kan                                                                       | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 12  | Ejderhaların Dansı. Kısım 1                                                       | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 13  | Ejderhaların Dansı. Kısım 2                                                       | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 14  | Kargaların Ziyafeti. Kısım 1                                                      | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 15  | Kargaların Ziyafeti. Kısım 2                                                      | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 16  | Buz Ejderhasi                                                                     | George R. R. Martin                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 17  | Da Vinci Şifresi                                                                  | Dan Brown                                             | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 18  | Cehennem                                                                          | Dan Brown                                             | Turkish     | ✗        | Completed  |                                                                                 |
+| 19  | Başlangıç                                                                         | Dan Brown                                             | Turkish     | ✓        | Completed  |                                                                                 |
+| 20  | Dijital Kale                                                                      | Dan Brown                                             | Turkish     | ✓        | Completed  |                                                                                 |
+| 21  | Itirilmiş Simvol                                                                  | Dan Brown                                             | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 22  | Ihanet noktasi                                                                    | Dan Brown                                             | Turkish     | ✓        | Completed  |                                                                                 |
+| 23  | Foundation's Edge                                                                 | Isaac Asimov                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 24  | Second Foundation                                                                 | Isaac Asimov                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 25  | Foundation and Empire                                                             | Isaac Asimov                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 26  | Foundation                                                                        | Isaac Asimov                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 27  | Kendine Iyi Davran Güzel Insan                                                    | Beyhan Budak                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 28  | Aklındakini Okuyabilirim                                                          | David J. Lieberman                                    | Turkish     | ✓        | Completed  |                                                                                 |
+| 29  | The Social Brain: The Psychology of Successful Groups                             | Robin Dunbar and Samantha Rockey and Tracey Camilleri | English     | ✓        | Completed  |                                                                                 |
+| 30  | Stressə qarşı peyvənd. Öz həyatının sahibi ol                                     | Valeri Sinelnikov                                     | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 31  | Hayır Diyebilme Sanatı                                                            | Müthiş Psikoloji                                      | Turkish     | ✓        | Completed  |                                                                                 |
+| 32  | Education of the Will: The Theory and Practice of Self-Culture                    | Jules Payot                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 33  | Aklın Yeni Sınırları                                                              | Daniel H. Pink                                        | Turkish     | ✓        | Completed  |                                                                                 |
+| 34  | Thinking Fast and Slow                                                            | Daniel Kahneman                                       | Turkish     | ✓        | Completed  | everyone should read this book                                                  |
+| 35  | Kitleler Psikolojisi                                                              | Gustave Le Bon                                        | Turkish     | ✓        | Completed  |                                                                                 |
+| 36  | It Didn't Start with You                                                          | Mark Wolynn                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 37  | Psixologiya                                                                       | A.S.Bayramov and A.A. Alizada                         | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 38  | Mutlu Beyin                                                                       | Loretta Graziano Breuning                             | Turkish     | ✓        | Completed  |                                                                                 |
+| 39  | Atomik Alışkanlıklar                                                              | James Clear                                           | Turkish     | ✓        | Completed  | everyone should read this book                                                  |
+| 40  | Travma ve İyileşme                                                                | Judith Herman                                         | Turkish     | ✓        | Completed  |                                                                                 |
+| 41  | Para Yönetimi                                                                     | Alfred Mill                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 42  | Lean startup                                                                      | Eric Ries                                             | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 43  | Rich Dad Poor Dad                                                                 | Robert Kiyosaki                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 44  | Para Kazanmak Senin Elinde                                                        | Jen Sincero                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 45  | Zənginliyin açarı                                                                 | Napoleon Hill                                         | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 46  | Milyarder ve keşiş                                                                | Vibhor Kumar Singh                                    | Turkish     | ✓        | Completed  |                                                                                 |
+| 47  | Discover Your Destiny with the Monk Who Sold His Ferrari                          | Robin Sharma                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 48  | Paranın Satın Alamayacağı Şeyler                                                  | Michael J. Sandel                                     | Turkish     | ✓        | Completed  |                                                                                 |
+| 49  | Paranın Psikolojisi                                                               | Morgan Housel                                         | Turkish     | ✓        | Completed  |                                                                                 |
+| 50  | Büyük Yatırımcılar                                                                | Glen Arnold                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 51  | The Intelligent Investor                                                          | Benjamin Graham                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 52  | Milyoner Aklin Sirlari                                                            | T. Harv Eker                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 53  | Richest man in Babylon                                                            | George S. Clason                                      | Turkish     | ✓        | Completed  |                                                                                 |
+| 54  | Buyology                                                                          | Martin Lindstrom                                      | English     | ✓        | Completed  |                                                                                 |
+| 55  | Satışın Kutsal Kitabı                                                             | Jeffrey Gitomer                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 56  | Necə böyük rəhbər olmalı                                                          | Jeffrey J. Fox                                        | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 57  | Necə Güclü Rəqib Olmaq Olar                                                       | Jeffrey J. Fox                                        | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 58  | Big Data                                                                          | Victor Mayer-Schönberger and Kenneth Cukier           | English     | ✓        | Completed  |                                                                                 |
+| 59  | Büyük Veri İş Başında                                                             | Bernard Marr                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 60  | A-dan Z-yə marketinq                                                              | Philip Kotler                                         | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 61  | Marketinqdə 10 Ölümcül Qüsur                                                      | Philip Kotler                                         | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 62  | Mor inek                                                                          | Seth Godin                                            | Turkish     | ✓        | Completed  |                                                                                 |
+| 63  | The Big Zero                                                                      | Kris Timmermans and Rodrigo Abdalla                   | English     | ✓        | Completed  |                                                                                 |
+| 64  | Tanrı Olmak Zor İş                                                                | Boris Strugatski and Arkadi Strugatski                | Turkish     | ✓        | Completed  |                                                                                 |
+| 65  | 1984                                                                              | George Orwell                                         | Turkish     | ✓        | Completed  |                                                                                 |
+| 66  | Oliver Twist                                                                      | Charles Dickens                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 67  | The Twelve Chairs                                                                 | Ilf Petrov and Yevgeny Petrov                         | Turkish     | ✓        | Completed  |                                                                                 |
+| 68  | Asla Arkana Bakma                                                                 | Tess Gerritsen                                        | Turkish     | ✓        | Completed  |                                                                                 |
+| 69  | Elə həmin Elis                                                                    | Layza Cenova                                          | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 70  | My Sweet Orange Tree                                                              | José Mauro de Vasconcelos                             | Turkish     | ✓        | Completed  |                                                                                 |
+| 71  | The Kite Runner                                                                   | Khaled Hosseini                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 72  | And The Mountains Echoed                                                          | Khaled Hosseini                                       | Azerbaijani | ✗        | Completed  | sad                                                                             |
+| 73  | Gentleman Burglar                                                                 | Maurice Leblanc                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 74  | The Tartar Steppe                                                                 | Dino Buzzati                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 75  | Ikigai                                                                            | Francesc Miralles and Hector Garcia                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 76  | Ichigo Ichiye                                                                     | Francesc Miralles and Hector Garcia                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 77  | Ikigai for teens                                                                  | Francesc Miralles and Hector Garcia                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 78  | Prince                                                                            | Niccolò Machiavelli                                   | Turkish     | ✓        | Completed  |                                                                                 |
+| 79  | The Papalagi                                                                      | Erich Scheurmann                                      | Turkish     | ✓        | Completed  |                                                                                 |
+| 80  | Peaky Blinders                                                                    | Carl Chinn                                            | English     | ✓        | Completed  |                                                                                 |
+| 81  | Gnosis                                                                            | Adam Fawer                                            | Turkish     | ✓        | Completed  |                                                                                 |
+| 82  | Improbables                                                                       | Adam Fawer                                            | Turkish     | ✓        | Completed  |                                                                                 |
+| 83  | Mobius                                                                            | Adam Fawer                                            | Turkish     | ✓        | Completed  |                                                                                 |
+| 84  | Arxadakı Körpüləri Yandırın                                                       | Rövşən Abdullaoğlu                                    | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 85  | Əsarət                                                                            | Rövşən Abdullaoğlu                                    | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 86  | Dürtme                                                                            | Richard H. Thaler and Cass R. Sunstein                | Turkish     | ✓        | Completed  |                                                                                 |
+| 87  | Öfke Terbiyesi                                                                    | Aaron Karmin                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 88  | Welcome to Your Brain                                                             | Sandra Aamodt and Sam Wang                            | Turkish     | ✓        | Completed  |                                                                                 |
+| 89  | Akıldışının Mantığı                                                               | Dan Ariely                                            | Turkish     | ✓        | Completed  |                                                                                 |
+| 90  | İradə gücünün instinkti                                                           | Kelli Makqoniqal                                      | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 91  | The Power of Habit                                                                | Charles Duhigg                                        | Turkish     | ✓        | Completed  |                                                                                 |
+| 92  | Düsüncenin Maddesi                                                                | Steven Pinker                                         | Turkish     | ✓        | Completed  |                                                                                 |
+| 93  | Enneagram                                                                         | İsmail Acarkan                                        | Turkish     | ✓        | Completed  |                                                                                 |
+| 94  | Elestirel Düsünme Icin Bir Rehber                                                 | Vincent Ryan Ruggiero                                 | Turkish     | ✓        | Completed  |                                                                                 |
+| 95  | Subliminal                                                                        | Leonard Mlodinow                                      | Turkish     | ✓        | Completed  |                                                                                 |
+| 96  | Məntiqli düşünmə sənəti                                                           | Rolf Dobelli                                          | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 97  | Sadeliğin Dayanılmaz Hafifliği                                                    | Courtney Carver                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 98  | Reboot                                                                            | Jason Stockwood                                       | English     | ✓        | Completed  |                                                                                 |
+| 99  | Motivasyon Rehberi                                                                | Roman Gelperin                                        | Turkish     | ✓        | Completed  |                                                                                 |
+| 100 | 6 Deha Modeli                                                                     | Patrick Lencioni                                      | Turkish     | ✓        | Completed  |                                                                                 |
+| 101 | Etkili insanlarin 7 Alışkanlığı                                                   | Stephen R. Covey                                      | Turkish     | ✓        | Completed  |                                                                                 |
+| 102 | Rağmenciler                                                                       | Mümin Sekman                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 103 | Fırtınaya Karşı                                                                   | Marshall Goldsmith                                    | Turkish     | ✓        | Completed  |                                                                                 |
+| 104 | Zor Zamanlar Güzel Kapilar Acar                                                   | Nebi Yıldız                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 105 | Yol Senin Icinde                                                                  | Kinsun                                                | Turkish     | ✓        | Completed  |                                                                                 |
+| 106 | İkna Oyunları                                                                     | Henrik Fexeus                                         | Turkish     | ✓        | Completed  |                                                                                 |
+| 107 | The secret of letting go                                                          | Guy Finley                                            | Turkish     | ✓        | Completed  |                                                                                 |
+| 108 | Yaşam Sanatı                                                                      | Bob Proctor and Sandra Gallagher                      | Turkish     | ✓        | Completed  |                                                                                 |
+| 109 | Screw It Let's Do It                                                              | Richard Branson                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 110 | The Subtle Art of Not Giving a F*ck                                               | Mark Manson                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 111 | Outliers                                                                          | Malcolm Gladwell                                      | Turkish     | ✓        | Completed  |                                                                                 |
+| 112 | Hatalar Kitabı                                                                    | Skip Prichard                                         | Turkish     | ✓        | Completed  |                                                                                 |
+| 113 | Range                                                                             | David Epstein                                         | English     | ✓        | Completed  |                                                                                 |
+| 114 | Factfullness                                                                      | Hans Rosling Ola Rosling and Anna Rosling Rönnlund    | English     | ✓        | Completed  |                                                                                 |
+| 115 | Power                                                                             | Rhonda Byrne                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 116 | No Excuses!                                                                       | Brian Tracy                                           | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 117 | 5 Saniye Kurali                                                                   | Mel Robbins                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 118 | Kaos: Dağınıklığın Hayatlarımızı Değiştirme Gücü                                  | Tim Harford                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 119 | Yaradıcı düşünmə sənəti                                                           | Rod Cadkins                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 120 | Gut: The Inside Story of Our Body's Most Underrated Organ                         | Giulia Enders                                         | Turkish     | ✓        | Completed  |                                                                                 |
+| 121 | Həyatım və işim                                                                   | Henry Ford                                            | Azerbaijani | ✓        | Completed  |                                                                                 |
+| 122 | A Brief History of Time                                                           | Stephen Hawking                                       | Turkish     | ✓        | Completed  |                                                                                 |
+| 123 | Yeni Başlayanlar İçin Python                                                      | Ahmet Aksoy                                           | Turkish     | ✓        | Completed  |                                                                                 |
+| 124 | How You Learn Is How You Live: Using Nine Ways of Learning to Transform Your Life | Kay Peterson and David Kolb                           | English     | ✓        | Completed  |                                                                                 |
+| 125 | Statistics 101                                                                    | David Borman                                          | English     | ✓        | Completed  |                                                                                 |
+| 126 | The Singularity Is Near: When Humans Transcend Biology                            | Ray Kurzweil                                          | Turkish     | ✓        | Completed  |                                                                                 |
+| 127 | Şifreleme ve Şifre Çözme Yöntemleri                                               | Nuri Ural and Ömer Örenç                              | Turkish     | ✓        | Completed  |                                                                                 |
+| 128 | Flowers for Algernon                                                              | Daniel Keyes                                          | Turkish     | ✗        | Completed  | it is impossible to not to cry                                                  |
+| 129 | Martin Eden                                                                       | Jack London                                           | Turkish     | ✗        | Completed  | every men should read                                                           |
+| 130 | Robinson Crusoe                                                                   | Daniel Defoe                                          | Azerbaijani | ✗        | Completed  |                                                                                 |
+| 131 | The Adventures of Tom Sawyer                                                      | Mark Twain                                            | Azerbaijani | ✗        | Completed  |                                                                                 |
+| 132 | In Search of the Castaways                                                        | Jules Verne                                           | Azerbaijani | ✗        | Completed  |                                                                                 |
+| 133 | Make Your Bed                                                                     | William H. McRaven                                    | English     | ✗        | Completed  | simple and inspiring                                                            |
+| 134 | The Dance of Life: The New Science of How a Single Cell Becomes a Human Being     | Magdalena Żernicka-Goetz and Roger Highfield          | English     | ✗        | Completed  | i have never seen this kind of bulshit                                          |
+| 135 | White Fang                                                                        | Jack London                                           | Turkish     | ✓        | Completed  | something interesting                                                           |
+| 136 | The Art of the Start 2.0                                                          | Guy Kawasaki                                          | English     | ✗        | Summarized | some bullshit about everyone already knows 20 thousand years ago                |
+| 137 | Confessions of an Economic Hit Man                                                | John Perkins                                          | English     | ✓        | Completed  | every one knows.but no one cares.just no one                                    |
+| 138 | The Alchemist                                                                     | Paulo Coelho                                          | Turkish     | ✗        | Completed  | it is some kind of masterpiece, but most of people not aware                    |
+| 139 | Breakfast with Seneca                                                             | David R. Fideler                                      | English     | ✗        | Summarized | time wasting- Islam arounds all of them more than every stoic thoughts          |
+| 140 | Zero to One                                                                       | Peter Thiel                                           | English     | ✗        | Summarized | something insightfull from america's powerfull gay billionaire                  |
+| 141 | The ONE Thing                                                                     | Gary Keller and Jay Papasan                           | English     | ✗        | Summarized | it is actually can be implemented and not alike other bullshit motivation books |
+| 142 | The Almanack Of Naval Ravikant                                                    | Eric Jorgenson                                        | English     | ✗        | Summarized | interesting and insightfull                                                     |
+| 143 | The Winner Effect                                                                 | Ian Robertson                                         | English     | ✗        | Summarized | every winner should aware of consequences of thinking himself as undefeatable   |
+| 144 | Writing to Learn                                                                  | William Zinsser                                       | English     | ✗        | Summarized | it is explains how writing helps to organize our thoughts                       |
+| 145 | Four Thousand Weeks                                                               | Oliver Burkeman                                       | English     | ✗        | Summarized | spare you limited time for most important things and live with JOMO             |
+| 146 | Lean Product Playbook                                                             | Dan Olsen                                             | English     | ✗        | Summarized | another hero trying to find order in jungle                                     |
+| 147 | Human Design                                                                      | Ra Uru Hu                                             | English     | ✗        | Summarized | if you give pen and paper to crazy man this book will be written                |
+| 148 | Think and Grow Rich                                                               | Napoleon Hil                                          | Turkish     | ✗        | Completed  | interesting book                                                                |
+| 149 | 12 Months to $1 Million                                                           | Ryan Moran                                            | English     | ✗        | Summarized | again bullshit from enterpreneur who wants to gain money from book              |
+| 150 | The Millionaire Fastlane                                                          | MJ DeMarco                                            | English     | ✗        | Summarized | basic classification of wealth gaining                                          |
+| 151 | Rich AF                                                                           | Vivian Tu                                             | English     | ✗        | Summarized | personal finance management                                                     |
+| 152 | Millionaire Mission                                                               | Brian Preston                                         | English     | ✗        | Summarized | another bullshit finance book                                                   |
+| 153 | Million Dollar Weekend                                                            | Noah Kagan                                            | English     | ✗        | Summarized | startup framework and actually it is helpfull                                   |
+| 154 | Main Street Millionaire                                                           | Codie Sanchez                                         | English     | ✗        | Summarized | systematic approach to business                                                 |
+| 155 | Smart Women Finish Rich                                                           | David Bach                                            | English     | ✗        | Summarized | not only for women                                                              |
+| 156 | Money: Master the Game                                                            | Tony Robbins                                          | English     | ✗        | Summarized | simple but powerfull advices                                                    |
+| 157 | Ovod                                                                              | Ethel Lilian Voynich                                  | Azerbaijani | ✗        | Summarized | just a drama                                                                    |
+| 158 | Financial Freedom                                                                 | Grant Sabatier                                        | English     | ✗        | Summarized |                                                                                 |
 
 ---
 

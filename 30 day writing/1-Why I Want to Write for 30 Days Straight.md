@@ -1,5 +1,5 @@
-![[writing.jpg|500]]
 
+<img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
 ### My 30-Day Writing Challenge
 
 A few days ago, I watched a YouTuber explain how writing every day for 30 days changed his life. His story stuck with me. He said daily writing helped him think more clearly, speak better, and feel more confident. I thought, “Why don’t I try this?”

@@ -1,4 +1,4 @@
-![[lie.jpg]]
+<img src="https://images.unsplash.com/photo-1741232836015-960c3e2e0508?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
 
 When grauduated from the university I was believed only one thing for being happy individual in among my peers: Find a stable job.
 

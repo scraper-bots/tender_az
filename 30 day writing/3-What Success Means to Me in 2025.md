@@ -1,4 +1,4 @@
-![[success.jpg|500]]
+<img src="https://images.unsplash.com/photo-1526071904038-18bc29e6df91?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
 
 Today I want to talk about succes, which it is meaningfull for all us. 
 And untill now defintion of succes means only what the people trying to achive and if he gets this thing this means that this is succesfull. 

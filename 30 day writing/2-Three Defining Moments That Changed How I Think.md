@@ -1,4 +1,4 @@
-![[moments.jpg|500]] 
+<img src="https://images.unsplash.com/photo-1546272192-c19942fa8b26?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
 Today I will write about key moments in my life which impacted today who am I.
 
 First moment of my life is related with working as waiter at local restaurant in student years. During this period i attempted to work several time. But i do not know why i can not find any work. At the end somehow I found a job at the restaurant. I worked at this restaurant 3–4 days. 
