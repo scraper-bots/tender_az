@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "business/apps.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -47,7 +47,8 @@
               "title": "One-Page App Ideas for Ad Revenue"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "497da0b8a233e380",
@@ -236,10 +238,10 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "470d2c67f98c7a2a",
+  "active": "7a3144a6ed8885bb",
   "lastOpenFiles": [
-    "business/ideas/One-Page App Ideas for Ad Revenue.md",
     "business/apps.md",
+    "business/ideas/One-Page App Ideas for Ad Revenue.md",
     "business/ideas/small apps.md",
     "different/json instead of hl7.md",
     "books/money/The Barefoot Investor.md",
