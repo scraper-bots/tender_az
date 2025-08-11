@@ -32,8 +32,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,7 +221,7 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "526abbab43c9ade8",
+  "active": "470d2c67f98c7a2a",
   "lastOpenFiles": [
     "business/ideas/One-Page App Ideas for Ad Revenue.md",
     "different/json instead of hl7.md",
