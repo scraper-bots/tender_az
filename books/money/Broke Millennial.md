@@ -247,3 +247,7 @@ This condensed action plan mirrors the book’s incremental approach.
 ## Final note
 
 _Broke Millennial_ functions best as a pragmatic starter manual: it reduces the mystery of personal finance and gives readers the practical tools to build competence. Its combination of technical primers, behavioral nudges, and real-world scripts makes it particularly effective for those who know they should “get their finances in order” but don’t know where to begin. If you want, I can convert this summary into a one-page action checklist, create a 30-/90-/365-day calendar with concrete tasks, or extract the negotiation scripts and tailor them to a specific situation (e.g., asking for a raise in your role). Which would you prefer?
+
+[[list]]
+
+[[my books]]
