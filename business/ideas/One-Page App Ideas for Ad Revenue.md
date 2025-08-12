@@ -13,7 +13,7 @@
 | **BMI Calculator**          | [bmi-gamma-five.vercel.app](https://bmi-gamma-five.vercel.app/)         | Calculate BMI with health recommendations                             |
 | **Simple To-Do List**       | [todo-ecru-iota.vercel.app](https://todo-ecru-iota.vercel.app/)         | Basic task management without user accounts                           |
 | **Unit Converter**          | https://unitconverter-chi.vercel.app/                                   | Convert between different units (length, weight, temperature, etc.)   |
-| **Color Palette Generator** | -                                                                       | Generate random color schemes for designers with hex codes            |
+| **Color Palette Generator** | https://colorpalette-beta.vercel.app/                                   | Generate random color schemes for designers with hex codes            |
 | **Image Format Converter**  | -                                                                       | Convert between JPEG, PNG, WebP with quality options                  |
 | **Meme Generator**          | -                                                                       | Add text to popular meme templates                                    |
 | **Time Zone Converter**     | -                                                                       | Convert time between different world time zones                       |
