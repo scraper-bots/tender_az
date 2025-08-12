@@ -14,7 +14,7 @@
 | **Color Palette Generator** | https://colorpalette-beta.vercel.app/                                   | Generate random color schemes for designers with hex codes            |
 | **Image Format Converter**  | https://imageconverter-cyan.vercel.app/                                 | Convert between JPEG, PNG, WebP with quality options                  |
 | **Meme Generator**          | https://memegen-nine.vercel.app/                                        | Add text to popular meme templates                                    |
-| **Time Zone Converter**     | -                                                                       | Convert time between different world time zones                       |
+| **Time Zone Converter**     | https://timezoneconvert.vercel.app/                                     | Convert time between different world time zones                       |
 | **Simple Drawing Tool**     | -                                                                       | Basic pixel art or drawing canvas                                     |
 | **Daily Horoscope**         | -                                                                       | Personalized horoscope based on zodiac signs                          |
 | **Media Converter**         | -                                                                       | Convert video (GIF to MP4) and audio formats (MP3, WAV, etc.)         |
