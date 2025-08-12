@@ -21,24 +21,8 @@
               "icon": "lucide-file",
               "title": "One-Page App Ideas for Ad Revenue"
             }
-          },
-          {
-            "id": "fa3576896b5d5d2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "business/ideas/One-Page App Ideas for Ad Revenue.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "One-Page App Ideas for Ad Revenue"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,20 +191,23 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "fa3576896b5d5d2b",
+  "active": "4bad88296e2c4b81",
   "lastOpenFiles": [
-    "business/ideas/small apps.md",
+    "books/money/list.md",
+    "Die With Zero.md",
     "business/ideas/One-Page App Ideas for Ad Revenue.md",
-    "business/apps.md",
+    "books/my books.md",
     "books/money/Broke Millennial.md",
+    "10-The Tools I Can't Work Without (And Why).md",
+    "n8n.md",
+    "30 day writing/writing plan.md",
+    "business/ideas/small apps.md",
+    "business/apps.md",
     "30 day writing/9-A Problem I Solved at Work (And How I Did It).md",
     "different/AdSense.md",
-    "books/money/list.md",
-    "30 day writing/writing plan.md",
     "different/json instead of hl7.md",
     "books/money/The Barefoot Investor.md",
     "30 day writing/8-What Most People Get Wrong About Healthcare Data.md",
-    "books/my books.md",
     "30 day writing/1-Why I Want to Write for 30 Days Straight.md",
     "business/ideas/One page Apps.md",
     "books/money/Financial Freedom.md",
@@ -236,9 +223,6 @@
     "books/different/Human Design. The Revolutionary System That Shows You Who You Came Here to Be.md",
     "reading-list.csv",
     "books/reading-list.csv",
-    "books/money/Zero to One.md",
-    "books/money/The Winner Effect. How Power Affects Your Brain.md",
-    "books/money/The Psychology of Money. Timeless Lessons on Wealth, Greed, and Happiness.md",
     "business/adds.jpg",
     "adds.jpg",
     "business/images",

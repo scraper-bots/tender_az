@@ -163,6 +163,10 @@
 | 157 | Ovod                                                                              | Ethel Lilian Voynich                                  | Azerbaijani | ✗        | Summarized | just a drama                                                                    |
 | 158 | Financial Freedom                                                                 | Grant Sabatier                                        | English     | ✗        | Summarized | bullshit-no one can live this life                                              |
 | 159 | The Barefoot Investor                                                             | Scott Pape                                            | English     | ✗        | Summarized | simple advices                                                                  |
+| 160 | Broke Millennial                                                                  | Erin Lowry                                            | English     | ✗        | Summarized | just another book                                                               |
+| 161 | Die With Zero                                                                     | Bill Perkins                                          | English     | ✗        | Summarized |                                                                                 |
+| 162 |                                                                                   |                                                       |             |          |            |                                                                                 |
+|     |                                                                                   |                                                       |             |          |            |                                                                                 |
 
 ---
 
