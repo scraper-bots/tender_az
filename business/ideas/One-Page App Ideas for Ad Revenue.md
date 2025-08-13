@@ -16,5 +16,4 @@
 | **Meme Generator**          | https://memegen-nine.vercel.app/                                        | Add text to popular meme templates                                    |
 | **Time Zone Converter**     | https://timezoneconvert.vercel.app/                                     | Convert time between different world time zones                       |
 | **Simple Drawing Tool**     | -                                                                       | Basic pixel art or drawing canvas                                     |
-| **Daily Horoscope**         | -                                                                       | Personalized horoscope based on zodiac signs                          |
 | **Media Converter**         | https://mediaconverter-psi.vercel.app/                                  | Convert video (GIF to MP4) and audio formats (MP3, WAV, etc.)         |

@@ -21,6 +21,16 @@
               "icon": "lucide-file",
               "title": "One-Page App Ideas for Ad Revenue"
             }
+          },
+          {
+            "id": "23311a905de4fa98",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -193,9 +203,9 @@
   },
   "active": "4bad88296e2c4b81",
   "lastOpenFiles": [
+    "business/ideas/One-Page App Ideas for Ad Revenue.md",
     "books/money/Die With Zero.md",
     "different/n8n.md",
-    "business/ideas/One-Page App Ideas for Ad Revenue.md",
     "books/money/list.md",
     "30 day writing/10-The Tools I Can't Work Without (And Why).md",
     "books/my books.md",
