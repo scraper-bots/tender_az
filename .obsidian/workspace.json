@@ -137,13 +137,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "business/ideas/apps.md",
-                "followCursor": false,
-                "showSearch": false,
+                "followCursor": true,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of apps"
+              "title": "Outline"
             }
           },
           {
