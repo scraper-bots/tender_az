@@ -8,6 +8,6 @@ But i do not know how to turn my unwanted things to the learning passionate.
 This is downside of the motivation.
 When you do not feel motivation you can not do anything.
 That is my curse.
-
+I can not do things which is not feels that i like.
 
 [[writing plan]]
