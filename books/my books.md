@@ -166,7 +166,7 @@
 | 160 | Broke Millennial                                                                  | Erin Lowry                                            | English     | ✗        | Summarized | just another book                                                               |
 | 161 | Die With Zero                                                                     | Bill Perkins                                          | English     | ✗        | Summarized | money > time                                                                    |
 | 162 | Broke Millennial                                                                  | Erin Lowry                                            | English     | ✗        | Summarized | another bullshit                                                                |
-| 163 | The Millionaire Mind                                                              | Thomas J. Stanley                                     | English     | ✗        | Summarized |                                                                                 |
+| 163 | The Millionaire Mind                                                              | Thomas J. Stanley                                     | English     | ✗        | Summarized | mindset                                                                         |
 |     |                                                                                   |                                                       |             |          |            |                                                                                 |
 
 ---
