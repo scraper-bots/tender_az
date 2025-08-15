@@ -167,7 +167,7 @@
 | 161 | Die With Zero                                                                     | Bill Perkins                                          | English     | ✗        | Summarized | money > time                                                                    |
 | 162 | Broke Millennial                                                                  | Erin Lowry                                            | English     | ✗        | Summarized | another bullshit                                                                |
 | 163 | The Millionaire Mind                                                              | Thomas J. Stanley                                     | English     | ✗        | Summarized | mindset                                                                         |
-| 164 | Unshakeable                                                                       | Tony Robbins (with Peter Mallouk)                     | English     | ✗        | Summarized |                                                                                 |
+| 164 | Unshakeable                                                                       | Tony Robbins (with Peter Mallouk)                     | English     | ✗        | Summarized | investment                                                                      |
 
 ---
 
