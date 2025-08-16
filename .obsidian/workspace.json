@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cbdfcdefa2a8c066",
+        "id": "08f45a8f2343d95c",
         "type": "tabs",
         "children": [
           {
-            "id": "8d4e3e42b9d11274",
+            "id": "b209a8eaefc7665d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "13-The Future of Healthcare Data-Where We're Headed.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "13-The Future of Healthcare Data-Where We're Headed"
+              "title": "New tab"
             }
           }
         ]
@@ -192,11 +187,11 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "8d4e3e42b9d11274",
+  "active": "5f5b6607401f74d1",
   "lastOpenFiles": [
+    "30 day writing/13-The Future of Healthcare Data-Where We're Headed.md",
     "Think and Grow Rich.md",
     "Behavioral Investment Counseling.md",
-    "13-The Future of Healthcare Data-Where We're Headed.md",
     "tools as SAAS.md",
     "keywords in SEO.md",
     "books/my books.md",
