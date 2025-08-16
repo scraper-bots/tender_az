@@ -168,6 +168,7 @@
 | 162 | Broke Millennial                                                                  | Erin Lowry                                            | English     | ✗        | Summarized | another bullshit                                                                |
 | 163 | The Millionaire Mind                                                              | Thomas J. Stanley                                     | English     | ✗        | Summarized | mindset                                                                         |
 | 164 | Unshakeable                                                                       | Tony Robbins (with Peter Mallouk)                     | English     | ✗        | Summarized | investment                                                                      |
+| 164 | Behavioral Investment Counseling                                                  | Grayson Adams                                         | English     | ✗        | Summarized |                                                                                 |
 
 ---
 
