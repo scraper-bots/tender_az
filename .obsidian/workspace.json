@@ -11,10 +11,15 @@
             "id": "8d4e3e42b9d11274",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "13-The Future of Healthcare Data-Where We're Headed.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "13-The Future of Healthcare Data-Where We're Headed"
             }
           }
         ]
