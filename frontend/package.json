@@ -19,7 +19,7 @@
     "@prisma/client": "^5.7.0",
     "prisma": "^5.7.0",
     "axios": "^1.6.0",
-    "react-query": "^3.39.3",
+    "@tanstack/react-query": "^5.0.0",
     "react-hook-form": "^7.48.2",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
