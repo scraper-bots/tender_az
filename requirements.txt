@@ -1,6 +1,7 @@
 # Core dependencies
 python-dotenv==1.0.0
 pydantic==2.5.0
+pydantic-settings==2.1.0
 loguru==0.7.2
 
 # Web scraping
