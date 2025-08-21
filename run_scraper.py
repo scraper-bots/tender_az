@@ -7,11 +7,11 @@ import json
 
 def main():
     parser = argparse.ArgumentParser(description='Tender.az Company Scraper')
-    parser.add_argument('--mode', choices=['test', 'category', 'full', 'single'], 
+    parser.add_argument('--mode', choices=['test', 'pages', 'full', 'single'], 
                        default='test', help='Scraping mode')
-    parser.add_argument('--category', type=str, help='Specific category URL to scrape')
+    parser.add_argument('--start-page', type=int, default=1, help='Starting page number')
+    parser.add_argument('--end-page', type=int, default=157, help='Ending page number (max 157)')
     parser.add_argument('--profile', type=str, help='Specific profile URL to scrape')
-    parser.add_argument('--pages', type=int, default=5, help='Max pages per category')
     parser.add_argument('--output', type=str, default='companies', help='Output filename prefix')
     
     args = parser.parse_args()
@@ -20,25 +20,19 @@ def main():
     
     try:
         if args.mode == 'test':
-            print("Running test mode - scraping first category with 2 pages...")
-            scraper.login()
-            categories = scraper.get_categories()
-            if categories:
-                scraper.scrape_category(categories[0]['url'], max_pages=2)
-                scraper.save_to_csv(f'{args.output}_test.csv')
-                scraper.save_to_json(f'{args.output}_test.json')
-                print(f"Test completed! Found {len(scraper.companies_data)} companies")
+            print("Running test mode - scraping first 3 pages...")
+            scraper.run_test_scrape(num_pages=3)
+            scraper.save_to_csv(f'{args.output}_test.csv')
+            scraper.save_to_json(f'{args.output}_test.json')
+            print(f"Test completed! Found {len(scraper.companies_data)} companies")
             
-        elif args.mode == 'category':
-            if not args.category:
-                print("Please provide --category URL for category mode")
-                return
-            print(f"Scraping category: {args.category}")
+        elif args.mode == 'pages':
+            print(f"Scraping pages {args.start_page} to {args.end_page}...")
             scraper.login()
-            scraper.scrape_category(args.category, max_pages=args.pages)
-            scraper.save_to_csv(f'{args.output}_category.csv')
-            scraper.save_to_json(f'{args.output}_category.json')
-            print(f"Category scraping completed! Found {len(scraper.companies_data)} companies")
+            scraper.scrape_pages_range(args.start_page, args.end_page)
+            scraper.save_to_csv(f'{args.output}_pages_{args.start_page}_{args.end_page}.csv')
+            scraper.save_to_json(f'{args.output}_pages_{args.start_page}_{args.end_page}.json')
+            print(f"Pages scraping completed! Found {len(scraper.companies_data)} companies")
             
         elif args.mode == 'single':
             if not args.profile:
@@ -58,10 +52,11 @@ def main():
                 
         elif args.mode == 'full':
             print("Running full scrape...")
-            print("This may take several hours depending on the number of categories and pages")
+            print(f"This will scrape all {args.end_page - args.start_page + 1} pages (~1879 companies)")
+            print("This may take several hours! Periodic saves every 10 pages.")
             confirm = input("Continue? (y/N): ")
             if confirm.lower() == 'y':
-                scraper.run_full_scrape(max_pages_per_category=args.pages)
+                scraper.run_full_scrape(args.start_page, args.end_page)
             else:
                 print("Full scrape cancelled")
         

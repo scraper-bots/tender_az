@@ -5,6 +5,7 @@ import json
 import csv
 import time
 import re
+import random
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 import os
@@ -32,12 +33,21 @@ class TenderAzScraper:
         self.login_url = "https://tender.az/user/login"
         self.users_url = "https://tender.az/users/"
         
-        # Set user agent to avoid blocking
+        # Enhanced headers to avoid bot detection
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7,az;q=0.6',
-            'Accept-Encoding': 'gzip, deflate, br',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9,az;q=0.8',
+            'Accept-Encoding': 'gzip, deflate',
+            'Cache-Control': 'max-age=0',
+            'Sec-Ch-Ua': '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+            'Sec-Ch-Ua-Mobile': '?0',
+            'Sec-Ch-Ua-Platform': '"macOS"',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Upgrade-Insecure-Requests': '1',
             'DNT': '1',
             'Connection': 'keep-alive',
         })
@@ -118,52 +128,121 @@ class TenderAzScraper:
             logger.error(f"Login request failed with status: {response.status_code}")
             return False
     
-    def scrape_page_companies(self, page_num):
-        """Extract company profile URLs from a specific page"""
+    def scrape_page_companies(self, page_num, retry_count=3):
+        """Extract company profile URLs from a specific page with bot detection handling"""
         page_url = f"https://tender.az/users/?page={page_num}"
         logger.info(f"Scraping companies from page {page_num}: {page_url}")
         
-        response = self.session.get(page_url)
-        if response.status_code != 200:
-            logger.error(f"Failed to access page {page_num}: {response.status_code}")
-            return []
-            
-        soup = BeautifulSoup(response.content, 'html.parser')
-        profile_urls = []
-        
-        # Find the company listings container
-        listings_container = soup.find('div', class_='j-list')
-        if not listings_container:
-            logger.warning(f"No listings container found on page {page_num}")
-            return []
-            
-        # Find all company profile links in the listings
-        company_list = listings_container.find('ul', class_='o-freelancersList')
-        if company_list:
-            # Each company is in an <li class="media"> element
-            company_items = company_list.find_all('li', class_='media')
-            
-            for item in company_items:
-                # Look for the main profile link
-                profile_link = item.find('a', class_='f-freelancer-avatar')
-                if profile_link and profile_link.get('href'):
-                    profile_url = urljoin(self.base_url, profile_link.get('href'))
-                    # Ensure we get the main profile URL, not portfolio
-                    if '/portfolio/' not in profile_url and profile_url not in profile_urls:
-                        profile_urls.append(profile_url)
+        for attempt in range(retry_count):
+            try:
+                # Minimal delay for high-speed scraping
+                if attempt > 0:
+                    logger.info(f"Retry {attempt + 1}/{retry_count} for page {page_num}")
+                    time.sleep(0.5)
                 
-                # Also check for company name link as backup
-                if not profile_link:
-                    name_div = item.find('div', class_='f-freelancer-name')
-                    if name_div:
-                        name_link = name_div.find('a')
-                        if name_link and name_link.get('href'):
-                            profile_url = urljoin(self.base_url, name_link.get('href'))
+                # Update headers with fresh referrer
+                self.session.headers.update({
+                    'Referer': 'https://tender.az/users/' if page_num > 1 else 'https://tender.az/',
+                    'Sec-Fetch-Site': 'same-origin' if page_num > 1 else 'none',
+                })
+                
+                response = self.session.get(page_url, timeout=30)
+                if response.status_code != 200:
+                    logger.error(f"Failed to access page {page_num}: {response.status_code}")
+                    continue
+                    
+                soup = BeautifulSoup(response.content, 'html.parser')
+                
+                # Check if we got blocked (look for common bot detection signs)
+                if self._is_blocked_response(soup, response.text):
+                    logger.warning(f"Bot detection triggered on page {page_num}, attempt {attempt + 1}")
+                    if attempt < retry_count - 1:
+                        # Wait longer before retry
+                        time.sleep(random.uniform(10, 20))
+                        continue
+                    else:
+                        logger.error(f"Failed to bypass bot detection for page {page_num}")
+                        return []
+                
+                profile_urls = []
+                
+                # Find the company listings container directly
+                company_list = soup.find('ul', class_='o-freelancersList')
+                if not company_list:
+                    # Try alternative selectors
+                    company_list = soup.find('div', class_='j-list')
+                    if company_list:
+                        company_list = company_list.find('ul', class_='o-freelancersList')
+                    
+                    if not company_list:
+                        logger.warning(f"No company list found on page {page_num}")
+                        if attempt < retry_count - 1:
+                            continue
+                        return []
+                        
+                # Process the company list
+                if company_list:
+                    # Each company is in an <li class="media"> element
+                    company_items = company_list.find_all('li', class_='media')
+                    
+                    for item in company_items:
+                        # Look for the main profile link
+                        profile_link = item.find('a', class_='f-freelancer-avatar')
+                        if profile_link and profile_link.get('href'):
+                            profile_url = urljoin(self.base_url, profile_link.get('href'))
+                            # Ensure we get the main profile URL, not portfolio
                             if '/portfolio/' not in profile_url and profile_url not in profile_urls:
                                 profile_urls.append(profile_url)
+                        
+                        # Also check for company name link as backup
+                        if not profile_link:
+                            name_div = item.find('div', class_='f-freelancer-name')
+                            if name_div:
+                                name_link = name_div.find('a')
+                                if name_link and name_link.get('href'):
+                                    profile_url = urljoin(self.base_url, name_link.get('href'))
+                                    if '/portfolio/' not in profile_url and profile_url not in profile_urls:
+                                        profile_urls.append(profile_url)
+                
+                if profile_urls:  # Success!
+                    logger.info(f"Found {len(profile_urls)} companies on page {page_num}")
+                    return profile_urls
+                elif attempt < retry_count - 1:
+                    logger.warning(f"No companies found on page {page_num}, retrying...")
+                    continue
+                else:
+                    logger.warning(f"No companies found on page {page_num} after {retry_count} attempts")
+                    return []
+                    
+            except Exception as e:
+                logger.error(f"Error scraping page {page_num}, attempt {attempt + 1}: {str(e)}")
+                if attempt < retry_count - 1:
+                    time.sleep(random.uniform(5, 15))
+                    continue
+                else:
+                    return []
         
-        logger.info(f"Found {len(profile_urls)} companies on page {page_num}")
-        return profile_urls
+        return []
+    
+    def _is_blocked_response(self, soup, response_text):
+        """Check if the response indicates bot detection/blocking"""
+        # Check for actual blocking messages (not just presence of services)
+        blocked_indicators = [
+            'captcha required', 'you are a robot', 'access denied',
+            'bot detection', 'please verify you are human',
+            'security check required', 'unusual traffic detected'
+        ]
+        
+        text_lower = response_text.lower()
+        for indicator in blocked_indicators:
+            if indicator in text_lower:
+                return True
+        
+        # Check if we have the expected company listings
+        if not soup.find('ul', class_='o-freelancersList'):
+            return True
+            
+        return False
     
     def scrape_company_from_profile_url(self, profile_url):
         """Scrape detailed company information from profile URL"""
@@ -400,89 +479,51 @@ class TenderAzScraper:
             logger.error(f"Error scraping profile {profile_url}: {str(e)}")
             return None
     
-    def scrape_category(self, category_url, max_pages=None):
-        """Scrape all companies from a specific category"""
-        logger.info(f"Scraping category: {category_url}")
+    def scrape_pages_range(self, start_page=1, end_page=157):
+        """Scrape companies from a range of pages"""
+        logger.info(f"Scraping pages {start_page} to {end_page}")
         
-        page = 1
         companies_found = 0
         
-        while True:
-            if max_pages and page > max_pages:
-                break
-                
-            # Build page URL
-            if page == 1:
-                page_url = category_url
-            else:
-                page_url = f"{category_url.rstrip('/')}/page/{page}"
-            
-            logger.info(f"Scraping page {page}: {page_url}")
-            
+        for page_num in range(start_page, end_page + 1):
             try:
-                response = self.session.get(page_url)
-                if response.status_code != 200:
-                    logger.warning(f"Failed to access page {page}: {response.status_code}")
-                    break
-                    
-                soup = BeautifulSoup(response.content, 'html.parser')
+                # Get company profile URLs from this page
+                profile_urls = self.scrape_page_companies(page_num)
                 
-                # Find profile links on this page
-                profile_links = []
-                processed_usernames = set()
-                
-                # Look for main user profile links only (not portfolio or opinion pages)
-                for link in soup.find_all('a', href=re.compile(r'/user/[^/]+/?$')):
-                    href = link.get('href', '')
-                    
-                    # Skip system pages and non-profile URLs
-                    skip_urls = ['/login', '/register', '/opinions', '/portfolio', '?', 
-                                '/messages', '/settings', '/logout', '/bill', '/dashboard', 
-                                '/notifications', '/orders', '/shop']
-                    if any(skip in href for skip in skip_urls):
-                        continue
-                    
-                    # Extract username from URL
-                    username_match = re.search(r'/user/([^/]+)/?$', href)
-                    if username_match:
-                        username = username_match.group(1)
-                        
-                        # Skip if we already processed this username
-                        if username in processed_usernames:
-                            continue
-                            
-                        profile_url = urljoin(self.base_url, href)
-                        
-                        # Make sure it's not already in our data
-                        if not any(profile_url == p['profile_url'] for p in self.companies_data):
-                            profile_links.append(profile_url)
-                            processed_usernames.add(username)
-                
-                if not profile_links:
-                    logger.info(f"No more companies found on page {page}")
-                    break
+                if not profile_urls:
+                    logger.warning(f"No companies found on page {page_num}")
+                    continue
                 
                 # Scrape each company profile
-                for profile_url in profile_links:
+                for profile_url in profile_urls:
+                    # Skip if we already scraped this company
+                    if any(profile_url == p['profile_url'] for p in self.companies_data):
+                        continue
+                        
                     company_data = self.scrape_company_from_profile_url(profile_url)
                     if company_data:
                         self.companies_data.append(company_data)
                         companies_found += 1
                     
-                    # Add delay to avoid being blocked
-                    time.sleep(1)
+                    # Random delay between profiles to avoid being blocked
+                    time.sleep(random.uniform(2, 5))
                 
-                logger.info(f"Page {page} completed. Found {len(profile_links)} companies.")
-                page += 1
+                logger.info(f"Page {page_num} completed. Found {len(profile_urls)} companies.")
                 
-                # Add delay between pages
-                time.sleep(2)
+                # Random delay between pages (longer)
+                time.sleep(random.uniform(5, 12))
+                
+                # Periodic save every 10 pages
+                if page_num % 10 == 0:
+                    self.save_to_csv(f'tender_companies_page_{page_num}.csv')
+                    self.save_to_json(f'tender_companies_page_{page_num}.json')
+                    logger.info(f"Periodic save completed at page {page_num}")
                 
             except Exception as e:
-                logger.error(f"Error scraping page {page}: {str(e)}")
-                break
+                logger.error(f"Error scraping page {page_num}: {str(e)}")
+                continue
         
-        logger.info(f"Category scraping completed. Found {companies_found} companies.")
+        logger.info(f"Page range scraping completed. Found {companies_found} companies total.")
         return companies_found
     
     def save_to_csv(self, filename='tender_companies.csv'):
@@ -528,42 +569,38 @@ class TenderAzScraper:
         
         logger.info(f"Data saved to {filename}")
     
-    def run_full_scrape(self, max_pages_per_category=5):
-        """Run full scraping process"""
-        logger.info("Starting full scrape of Tender.az")
+    def run_full_scrape(self, start_page=1, end_page=157):
+        """Run full scraping process using page-by-page approach"""
+        logger.info(f"Starting full scrape of Tender.az (pages {start_page}-{end_page})")
+        logger.info("Expected: ~12 companies per page, 1879 total companies across 157 pages")
         
         # Login
         if not self.login():
             logger.error("Failed to login. Exiting.")
             return
         
-        # Get all categories
-        categories = self.get_categories()
-        if not categories:
-            logger.error("Failed to get categories. Exiting.")
-            return
-        
-        # Scrape each category
-        total_companies = 0
-        for i, category in enumerate(categories, 1):
-            logger.info(f"Processing category {i}/{len(categories)}: {category['name']}")
-            
-            count = self.scrape_category(category['url'], max_pages_per_category)
-            total_companies += count
-            
-            # Save periodically
-            if i % 5 == 0:
-                self.save_to_csv(f'tender_companies_partial_{i}.csv')
-                self.save_to_json(f'tender_companies_partial_{i}.json')
-            
-            # Add delay between categories
-            time.sleep(5)
+        # Scrape all pages
+        total_companies = self.scrape_pages_range(start_page, end_page)
         
         # Final save
         self.save_to_csv()
         self.save_to_json()
         
         logger.info(f"Scraping completed! Total companies found: {total_companies}")
+    
+    def run_test_scrape(self, num_pages=3):
+        """Run test scraping of first few pages"""
+        logger.info(f"Starting test scrape of first {num_pages} pages")
+        
+        # Login
+        if not self.login():
+            logger.error("Failed to login. Exiting.")
+            return
+        
+        # Scrape test pages
+        total_companies = self.scrape_pages_range(1, num_pages)
+        
+        logger.info(f"Test scraping completed! Found {total_companies} companies from {num_pages} pages")
 
 if __name__ == "__main__":
     scraper = TenderAzScraper()

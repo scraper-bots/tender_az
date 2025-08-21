@@ -1,15 +1,20 @@
 # Tender.az Company Scraper
 
-A Python scraper for extracting company information from Tender.az, including contact details, ratings, and other business data.
+A Python scraper for extracting company information from Tender.az using efficient page-by-page scraping. Capable of extracting all **1,879 companies** across **157 pages** (~12 companies per page).
 
 ## Features
 
 - **Login Authentication**: Automated login using credentials from .env file
+- **Page-by-Page Scraping**: Efficient extraction from paginated company listings
+- **Complete Phone Number Extraction**: Extracts phone numbers in all formats:
+  - Formatted: `050-222-92-52`, `012-465-94-27`
+  - Unformatted: `0502889559`, `9945023411`
+  - International: `994 50-232-00`, `994 12 310 09`
 - **Company Data Extraction**: Extracts comprehensive company information including:
   - Company name and profile URL
   - Phone numbers (multiple formats supported)
-  - WhatsApp numbers
-  - Email addresses
+  - WhatsApp numbers (properly separated)
+  - Email addresses and websites
   - Ratings and reviews
   - Experience information
   - Specialties and categories
@@ -17,12 +22,13 @@ A Python scraper for extracting company information from Tender.az, including co
   - Activity status
 
 - **Multiple Scraping Modes**:
-  - Test mode (quick test with limited data)
-  - Category mode (scrape specific business category)
+  - Test mode (scrape first 3 pages ~36 companies)
+  - Pages mode (scrape specific page range)
   - Single profile mode (scrape individual company)
-  - Full scrape mode (complete database scraping)
+  - Full scrape mode (all 157 pages ~1,879 companies)
 
 - **Data Export**: Saves data in both CSV and JSON formats
+- **Automatic Periodic Saves**: Saves progress every 10 pages during long scrapes
 
 ## Setup
 
@@ -42,17 +48,18 @@ Password=your_password
 ### Basic Usage
 
 ```bash
-# Test mode - scrapes first category with 2 pages
+# Test mode - scrapes first 3 pages (~36 companies)
 python run_scraper.py --mode test
 
-# Scrape specific category
-python run_scraper.py --mode category --category "https://tender.az/users/tikinti-ve-temir" --pages 5
+# Scrape specific page range
+python run_scraper.py --mode pages --start-page 1 --end-page 10
 
 # Scrape single company profile
-python run_scraper.py --mode single --profile "https://tender.az/user/yagmur2/portfolio/"
+python run_scraper.py --mode single --profile "https://tender.az/user/yagmur2/"
 
-# Full scrape (WARNING: This may take hours!)
-python run_scraper.py --mode full --pages 10
+# Full scrape - all 157 pages (~1,879 companies)
+# WARNING: This may take 3-4 hours!
+python run_scraper.py --mode full
 ```
 
 ### Advanced Options
@@ -61,8 +68,11 @@ python run_scraper.py --mode full --pages 10
 # Custom output filename
 python run_scraper.py --mode test --output my_companies
 
-# Limit pages per category
-python run_scraper.py --mode category --category "URL" --pages 3
+# Scrape specific page range
+python run_scraper.py --mode pages --start-page 50 --end-page 100 --output batch2
+
+# Scrape from middle of database
+python run_scraper.py --mode pages --start-page 80 --end-page 120
 ```
 
 ## Output Files
@@ -103,16 +113,23 @@ All activities are logged to `tender_scraper.log` and console output.
 ## Modes Explained
 
 ### Test Mode
-Perfect for testing the scraper setup. Scrapes only the first category with 2 pages.
+Perfect for testing the scraper setup. Scrapes the first 3 pages (~36 companies) to verify everything works.
 
-### Category Mode
-Scrape all companies from a specific business category. Get category URLs from the main users page.
+### Pages Mode
+Scrape companies from a specific page range. Useful for:
+- Processing data in batches
+- Resuming interrupted scrapes
+- Parallel processing (different page ranges)
 
 ### Single Profile Mode
 Extract data from a single company profile. Useful for testing or targeted extraction.
 
 ### Full Scrape Mode
-Scrapes all categories and companies. **Warning**: This can take several hours and generate thousands of records.
+Scrapes all 157 pages (~1,879 companies). **Features:**
+- **Automatic periodic saves** every 10 pages
+- **Progress tracking** with detailed logging
+- **Resume capability** by checking existing files
+- **Estimated time**: 3-4 hours depending on connection speed
 
 ## Error Handling
 
