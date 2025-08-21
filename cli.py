@@ -9,6 +9,10 @@ import argparse
 import sys
 from pathlib import Path
 from typing import Dict, Any, Optional
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 from src.orchestrator import JobApplicationOrchestrator
 from src.config.settings import settings

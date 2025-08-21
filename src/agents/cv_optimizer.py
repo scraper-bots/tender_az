@@ -18,7 +18,13 @@ from src.config.settings import settings
 class CVOptimizerAgent(BaseAgent):
     def __init__(self):
         super().__init__("cv_optimizer")
-        self.openai_client = openai.OpenAI(api_key=settings.openai_api_key)
+        try:
+            self.openai_client = openai.OpenAI(api_key=settings.openai_api_key)
+        except Exception as e:
+            # Fallback initialization for version compatibility
+            import openai as openai_module
+            openai_module.api_key = settings.openai_api_key
+            self.openai_client = openai_module
         self.optimization_strategies = {
             'keyword_matching': 0.3,
             'skill_alignment': 0.25,

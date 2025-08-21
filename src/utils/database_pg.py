@@ -19,13 +19,27 @@ class PostgreSQLManager:
         self.database_url = settings.database_url
         self.schema = settings.database_schema
         
-        # Convert to async URL if needed
+        # Convert to async URL and fix SSL for asyncpg compatibility
         if not self.database_url.startswith('postgresql+asyncpg'):
-            self.async_database_url = self.database_url.replace('postgresql://', 'postgresql+asyncpg://')
+            # For asyncpg, we need to handle SSL differently
+            base_url = self.database_url.replace('postgresql://', 'postgresql+asyncpg://')
+            # Remove sslmode parameter and add it as connect_args instead
+            if 'sslmode=require' in base_url:
+                base_url = base_url.replace('?sslmode=require', '')
+                base_url = base_url.replace('&sslmode=require', '')
+            self.async_database_url = base_url
         else:
             self.async_database_url = self.database_url
             
-        self.engine = create_async_engine(self.async_database_url)
+        # Create engine with SSL settings for asyncpg
+        connect_args = {}
+        if 'sslmode=require' in self.database_url:
+            connect_args['ssl'] = 'require'
+        
+        self.engine = create_async_engine(
+            self.async_database_url,
+            connect_args=connect_args
+        )
         self.SessionLocal = sessionmaker(
             self.engine, class_=AsyncSession, expire_on_commit=False
         )

@@ -23,7 +23,13 @@ from src.config.settings import settings
 class ResumeParserAgent(BaseAgent):
     def __init__(self):
         super().__init__("resume_parser")
-        self.openai_client = openai.OpenAI(api_key=settings.openai_api_key)
+        try:
+            self.openai_client = openai.OpenAI(api_key=settings.openai_api_key)
+        except Exception as e:
+            # Fallback initialization for version compatibility
+            import openai as openai_module
+            openai_module.api_key = settings.openai_api_key
+            self.openai_client = openai_module
         self.supported_formats = ['.pdf', '.docx', '.doc', '.txt']
     
     async def process(self, file_path: str) -> Resume:

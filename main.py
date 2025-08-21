@@ -6,6 +6,11 @@ Orchestrates multiple specialized agents for job application automation
 
 import asyncio
 from loguru import logger
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
 from src.orchestrator import JobApplicationOrchestrator
 
 async def main():
