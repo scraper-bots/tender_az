@@ -1,0 +1,89 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  schema   = "careeragent"
+}
+
+model Resume {
+  id               String   @id @default(cuid())
+  filePath         String   @map("file_path")
+  content          String
+  skills           String[]
+  experienceYears  Int      @map("experience_years")
+  education        Json
+  workHistory      Json     @map("work_history")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+  
+  applications     Application[]
+  optimizedResumes OptimizedResume[]
+
+  @@map("resumes")
+}
+
+model JobPosting {
+  id           String    @id @default(cuid())
+  title        String
+  company      String
+  location     String?
+  description  String
+  requirements String[]
+  salaryRange  String?   @map("salary_range")
+  url          String    @unique
+  discoveredAt DateTime  @default(now()) @map("discovered_at")
+  status       JobStatus @default(DISCOVERED)
+  
+  applications     Application[]
+  optimizedResumes OptimizedResume[]
+
+  @@map("job_postings")
+}
+
+model Application {
+  id            String            @id @default(cuid())
+  jobPostingId  String            @map("job_posting_id")
+  resumeId      String            @map("resume_id")
+  coverLetter   String?           @map("cover_letter")
+  status        ApplicationStatus @default(PENDING)
+  submittedAt   DateTime?         @map("submitted_at")
+  notes         String?
+  
+  jobPosting JobPosting @relation(fields: [jobPostingId], references: [id])
+  resume     Resume     @relation(fields: [resumeId], references: [id])
+
+  @@map("applications")
+}
+
+model OptimizedResume {
+  id                 String   @id @default(cuid())
+  originalResumeId   String   @map("original_resume_id")
+  jobPostingId       String   @map("job_posting_id")
+  optimizedContent   String   @map("optimized_content")
+  matchScore         Float    @map("match_score")
+  optimizationNotes  String   @map("optimization_notes")
+  createdAt          DateTime @default(now()) @map("created_at")
+  
+  originalResume Resume     @relation(fields: [originalResumeId], references: [id])
+  jobPosting     JobPosting @relation(fields: [jobPostingId], references: [id])
+
+  @@map("optimized_resumes")
+}
+
+enum JobStatus {
+  DISCOVERED
+  APPLIED
+  REJECTED
+  INTERVIEW
+  OFFER
+}
+
+enum ApplicationStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+  FAILED
+}
